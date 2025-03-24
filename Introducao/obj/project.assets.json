@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rhyansantiago\\Desktop\\asp\\Introducao\\Introducao.csproj",
+      "projectUniqueName": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\Introducao\\Introducao.csproj",
       "projectName": "Introducao",
-      "projectPath": "C:\\Users\\rhyansantiago\\Desktop\\asp\\Introducao\\Introducao.csproj",
+      "projectPath": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\Introducao\\Introducao.csproj",
       "packagesPath": "C:\\Users\\rhyansantiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rhyansantiago\\Desktop\\asp\\Introducao\\obj\\",
+      "outputPath": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\Introducao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rhyansantiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
