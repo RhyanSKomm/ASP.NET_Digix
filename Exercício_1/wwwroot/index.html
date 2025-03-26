@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud dos Usuários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Cadastro de Usuarios</h1>
+
+        <form action="" id="usuarioform">
+            <input type="hidden" id="id">
+            <input type="text" id="nome" placeholder="Nome do Usuário" required>
+            <input type="password" placeholder="senha" id="senha" required>
+            <input type="number" id="ramal" placeholder="ramal">
+            <input type="text" id="especialidade" placeholder="especialidade">
+            <button type="submit">Salvar</button>
+        </form>
+
+        <h2>Lista de Usuários</h2>
+        <table id="tabelaUsuarios">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Ramal</th>
+                    <th>Especialidade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
