@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Exercício_1.Controller
 {
     [ApiController]
-    [Route("usuario")]
+    [Route("[controller]")]
     public class UsuarioController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -23,13 +23,21 @@ namespace Exercício_1.Controller
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Usuarios>> Get()
+        public async Task<IEnumerable<Usuario>> Get()
         {
             return await _context.Usuarios.ToListAsync();
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Usuario>> GetById(int id)
+        {
+            var usuario = await _context.Usuarios.FindAsync(id);
+            if (usuario == null) return NotFound();
+            return usuario;
+        }
+
         [HttpPost]
-        public async Task<ActionResult<Usuarios>> Post([FromBody] Usuarios usuario)
+        public async Task<ActionResult<Usuario>> Post([FromBody] Usuario usuario)
         {
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
@@ -37,20 +45,26 @@ namespace Exercício_1.Controller
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<Usuarios>> Put(int id, [FromBody] Usuarios usuario)
+        public async Task<ActionResult<Usuario>> Put(int id, [FromBody] Usuario usuario)
         {
             var existente = await _context.Usuarios.FindAsync(id);
             if (existente == null) return NotFound();
 
-            existente.Nome_Usuario = usuario.Nome_Usuario;
+            existente.Password = usuario.Password;
+            existente.Nome = usuario.Nome;
+            existente.Ramal = usuario.Ramal;
+            existente.Especialidade = usuario.Especialidade;
+
+            await _context.SaveChangesAsync();
             return existente;
         }
-        
+
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             var existente = await _context.Usuarios.FindAsync(id);
             if (existente == null) return NotFound();
+
             _context.Usuarios.Remove(existente);
             await _context.SaveChangesAsync();
             return NoContent();

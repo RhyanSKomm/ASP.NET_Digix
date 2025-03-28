@@ -7,19 +7,26 @@ using System.Threading.Tasks;
 
 namespace Exercício_1.Model
 {
-    [Table("usuarios")]
-    public class Usuarios
+   [Table("usuarios")]
+    public class Usuario
     {
         [Key]
         [Column("id_usuario")]
+         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [Column("password")]
-        public string Password_Usuario { get; set; } = string.Empty;
+
         [Column("nome_usuario")]
-        public string Nome_Usuario { get; set; } = string.Empty;
+        public string Nome { get; set; }
+     
+        [Column("password")]
+        public string Password { get; set; }
+
         [Column("ramal")]
-        public int Ramal_Usuario { get; set; }
+        public int Ramal { get; set; }
+
         [Column("especialidade")]
-        public string Especialidade_Usuario { get; set; } = string.Empty;
+        public string Especialidade { get; set; }
+
+        // public List<Maquina> Maquinas { get; set; }
     }
 }

@@ -1,42 +1,57 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
 using Exercício_1.database;
 
 namespace Exercício_1
 {
     public class Executar
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            var connectionString = builder.Configuration.GetConnectionString("PostgresConnection");
+            // Carrega string de conexão do appsettings.json
+            // var connectionString = builder.Configuration.GetConnectionString("PostgresConnection");
 
-            builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
+            // Registra o DbContext com o PostgreSQL
+            builder.Services.AddDbContext<AppDbContext>(options =>
+             options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
 
+
+            // Adiciona suporte a controllers e Swagger
             builder.Services.AddControllers();
-
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
+            // Habilita Swagger (ambiente dev)
+            // if (app.Environment.IsDevelopment())
+            // {
             app.UseSwagger();
             app.UseSwaggerUI();
+            // }
+
+            // Habilita HTTPS
             app.UseHttpsRedirection();
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+
+            // Habilita arquivos estáticos da pasta wwwroot (html, css, js)
+            app.UseDefaultFiles(); // Procura por index.html
+            app.UseStaticFiles();  // Permite servir arquivos de wwwroot
+
+            // Habilita autenticação/autorização (mesmo que ainda não usada)
             app.UseAuthorization();
+
+            // Mapeia os endpoints da API
             app.MapControllers();
+
+            // Roda a aplicação
             app.Run();
+
+            // link para o swagger: http://localhost:5000/swagger/index.html
         }
     }
 }

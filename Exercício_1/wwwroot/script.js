@@ -20,9 +20,9 @@ function carregarUsuarios() {
                 tbody.innerHTML += `
                     <tr>
                         <td>${usuario.id}</td>
-                        <td>${usuario.nome_Usuario}</td>
-                        <td>${usuario.ramal_Usuario}</td>
-                        <td>${usuario.especialidade_Usuario}</td>
+                        <td>${usuario.nome}</td>
+                        <td>${usuario.ramal}</td>
+                        <td>${usuario.especialidade}</td>
                         <td>
                             <button class="edit" onclick="editarUsuario(${usuario.id})">Editar</button>
                             <button class="delete" onclick='deletarUsuario(${usuario.id})'>Deletar</button>
@@ -74,9 +74,9 @@ function salvarUsuario(e) {
   
     const usuario = {
       id: parseInt(id),
-      nome_Usuario: document.getElementById("nome").value,
-      password_Usuario: document.getElementById("senha").value,
-      ramal_Usuario: parseInt(document.getElementById("ramal").value),
+      nome: document.getElementById("nome").value,
+      password: document.getElementById("senha").value,
+      ramal: parseInt(document.getElementById("ramal").value),
       especialidade: document.getElementById("especialidade").value
     };
   
@@ -103,10 +103,10 @@ function editarUsuario(id){
         .then(res => res.json()) // converte a resposta para JSON
         .then(usuario => { // aqui ele vai preencher os campos do formulário com os dados do usuário
             document.getElementById("id").value = usuario.id; // preenche o campo id
-            document.getElementById("nome").value = usuario.nome_Usuario; // preenche o campo nome
-            document.getElementById("senha").value = usuario.password_Usuario; // preenche o campo password
-            document.getElementById("ramal").value = usuario.rama_Usuariol; // preenche o campo ramal
-            document.getElementById("especialidade").value = usuario.especialidade_Usuario; // preenche o campo especialidade
+            document.getElementById("nome").value = usuario.nome; // preenche o campo nome
+            document.getElementById("senha").value = usuario.password; // preenche o campo password
+            document.getElementById("ramal").value = usuario.ramal; // preenche o campo ramal
+            document.getElementById("especialidade").value = usuario.especialidade; // preenche o campo especialidade
         });
 }
 

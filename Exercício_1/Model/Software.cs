@@ -8,20 +8,23 @@ using System.Threading.Tasks;
 namespace Exercício_1.Model
 {
     [Table("software")]
-
     public class Software
     {
-        [Key]
+        [Key] // Define a chave primária
         [Column("id_software")]
         public int Id { get; set; }
+
         [Column("produto")]
-        public string Produto { get; set; } = string.Empty;
+        public string Produto { get; set; }
+
         [Column("harddisk")]
-        public int Hardidisk { get; set; }
+        public int HardDisk { get; set; }
+
         [Column("memoria_ram")]
-        public int Memoria_ram { get; set; }
-        [ForeignKey("maquina")]
+        public int MemoriaRam { get; set; }
+
+        [ForeignKey("Maquina")] // Define a chave estrangeira
         [Column("fk_maquina")]
-        public int Fk_maquina { get; set; }
+        public int FkMaquina { get; set; }
     }
 }

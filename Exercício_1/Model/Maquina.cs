@@ -10,21 +10,27 @@ namespace Exercício_1.Model
     [Table("maquina")]
     public class Maquina
     {
-        [Key]
-        [Column("id_maquina")]
+        [Key] // Define a chave primária
+        [Column("id_Maquina")]
         public int Id { get; set; }
+
         [Column("tipo")]
-        public string Tipo { get; set; } = string.Empty;
+        public string Tipo { get; set; }
+
         [Column("velocidade")]
         public int Velocidade { get; set; }
-        [Column("harddisk")]
-        public int Hardidisk { get; set; }
-        [Column("placa_rede")]
-        public int Placa_rede { get; set; }
-        [Column("memoria_ram")]
-        public int Memoria_ram { get; set; }
-        [ForeignKey("usuarios")]
+
+        [Column("hardDisk")]
+        public int HardDisk { get; set; }
+
+        [Column("placa_Rede")]
+        public int PlacaRede { get; set; }
+
+        [Column("memoria_Ram")]
+        public int MemoriaRam { get; set; }
+
+        [ForeignKey("Usuario")]
         [Column("fk_usuario")]
-        public int Fk_usuario { get; set; }
+        public int FkUsuario { get; set; }
     }
 }
