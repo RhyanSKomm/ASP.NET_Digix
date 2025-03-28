@@ -27,3 +27,28 @@ function carregarUsuarios() {
             })
         })
 }
+
+function salvarUsuario(event) {
+    event.preventDefault();
+
+    const id = document.getElementById("id").value;
+    const usuario = {
+        id: parseInt(id || 0),
+        nome: document.getElementById("nome").value,
+        password: document.getElementById("password").value,
+        ramal: document.getElementById("ramal").value,
+        especialidade: document.getElementById("especialidade").value
+    };
+    
+    const metodo = id ? "PUT" : "POST";
+    
+    const url = id ? `${API}/${id}` : API;
+    
+    fetch (url, {
+        method: metodo,
+        headers: {
+            "Cotent-Type": "application/json"
+        },
+        body: JSON.stringify(usuario)
+    })
+}
