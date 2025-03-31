@@ -11,7 +11,7 @@ namespace Exercício_1.Model
     public class Maquina
     {
         [Key] // Define a chave primária
-        [Column("id_Maquina")]
+        [Column("id_maquina")]
         public int Id { get; set; }
 
         [Column("tipo")]
@@ -20,13 +20,13 @@ namespace Exercício_1.Model
         [Column("velocidade")]
         public int Velocidade { get; set; }
 
-        [Column("hardDisk")]
+        [Column("harddisk")]
         public int HardDisk { get; set; }
 
-        [Column("placa_Rede")]
+        [Column("placa_rede")]
         public int PlacaRede { get; set; }
 
-        [Column("memoria_Ram")]
+        [Column("memoria_ram")]
         public int MemoriaRam { get; set; }
 
         [ForeignKey("Usuario")]

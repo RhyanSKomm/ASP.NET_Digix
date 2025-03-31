@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Navegação Lateral -->
+        <aside>
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Usuário</a></li>
+                <li><a href="maquina.html">Máquina</a></li>
+                <li><a href="software.html">Software</a></li>
+            </ul>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <div class="container">
+            <h1>Cadastro de Software</h1>
+            <form id="softwareform">
+                <input type="number" id="id" placeholder="ID do Software" required>
+                <input type="text" id="produto" placeholder="Produto" required>
+                <input type="text" id="harddisk" placeholder="Disco Rígido" required>
+                <input type="text" id="memoria_ram" placeholder="Memória RAM" required>
+                <input type="text" id="fk_maquina" placeholder="ID da Máquina" required>
+                <button type="submit">Salvar</button>
+            </form>
+
+            <h2>Lista de Softwares</h2>
+            <table id="tabelaSoftwares">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Produto</th>
+                        <th>Disco Rígido</th>
+                        <th>Memória RAM</th>
+                        <th>ID Máquina</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="software.js"></script>
+</body>
+
+</html>

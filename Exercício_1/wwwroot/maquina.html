@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Máquinas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Navegação Lateral -->
+        <aside>
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Usuário</a></li>
+                <li><a href="software.html">Software</a></li>
+                <li><a href="maquina.html">Máquina</a></li>
+            </ul>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <div class="container">
+            <h1>Cadastro de Máquinas</h1>
+            <form id="maquinaform">
+                <input type="number" id="id_maquina" placeholder="ID da Máquina" required>
+                <input type="text" id="tipo" placeholder="Tipo" required>
+                <input type="number" id="velocidade" placeholder="Velocidade" required>
+                <input type="number" id="harddisk" placeholder="Disco Rígido" required>
+                <input type="number" id="placa_rede" placeholder="Placa de Rede" required>
+                <input type="number" id="memoria_ram" placeholder="Memória RAM" required>
+                <input type="number" id="fk_usuario" placeholder="ID Usuário" required>
+                <button type="submit">Salvar</button>
+            </form>
+
+            <h2>Lista de Máquinas</h2>
+            <table id="tabelaMaquinas">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Velocidade</th>
+                        <th>Disco Rígido</th>
+                        <th>Placa de Rede</th>
+                        <th>Memória RAM</th>
+                        <th>ID Usuário</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="maquina.js"></script>
+</body>
+
+</html>
