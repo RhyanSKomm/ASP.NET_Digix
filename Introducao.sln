@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENDPOINT_ASPNET_BANCO", "EN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercício_1", "Exercício_1\Exercício_1.csproj", "{BE28FF65-A65F-4FDF-9785-96265AF7A459}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP_NET_CORE-1", "ASP_NET_CORE-1\ASP_NET_CORE-1.csproj", "{B9A5C166-1A34-46E8-9C8D-C3DD12C96CAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{BE28FF65-A65F-4FDF-9785-96265AF7A459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE28FF65-A65F-4FDF-9785-96265AF7A459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE28FF65-A65F-4FDF-9785-96265AF7A459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A5C166-1A34-46E8-9C8D-C3DD12C96CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A5C166-1A34-46E8-9C8D-C3DD12C96CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A5C166-1A34-46E8-9C8D-C3DD12C96CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A5C166-1A34-46E8-9C8D-C3DD12C96CAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
