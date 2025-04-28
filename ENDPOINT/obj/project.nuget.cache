@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+q6jcx+MqLI=",
+  "dgSpecHash": "1vSpWpnK0BM=",
   "success": true,
   "projectFilePath": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\ENDPOINT\\ENDPOINT.csproj",
   "expectedPackageFiles": [
@@ -190,7 +190,11 @@
     "C:\\Users\\rhyansantiago\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rhyansantiago\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rhyansantiago\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\rhyansantiago\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\rhyansantiago\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\rhyansantiago\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\rhyansantiago\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\rhyansantiago\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\rhyansantiago\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.15\\microsoft.netcore.app.host.win-x64.8.0.15.nupkg.sha512"
   ],
   "logs": []
 }

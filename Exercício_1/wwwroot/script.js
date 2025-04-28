@@ -4,7 +4,7 @@ document.getElementById("usuarioform").addEventListener("submit", salvarUsuario)
 carregarUsuarios();
 
 function carregarUsuarios() {
-    fetch("http://localhost:5000/Usuario")
+    fetch("http://localhost:5237/Usuario")
         .then(res => res.json())
         .then(data => {
             const tbody = document.querySelector("#tabelaUsuarios tbody");
