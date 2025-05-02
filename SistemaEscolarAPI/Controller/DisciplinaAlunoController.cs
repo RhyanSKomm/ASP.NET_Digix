@@ -16,27 +16,34 @@ namespace SistemaEscolarAPI.Controller
     [Route("api/[controller]")]
     public class DisciplinaAlunoCursoController : ControllerBase
     {
-        private readonly AppDbContext _context; 
+        private readonly AppDbContext _context;
 
         public DisciplinaAlunoCursoController(AppDbContext context)
         {
             _context = context;
         }
 
-        [HttpGet] 
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<DisciplinaAlunoCursoDTO>>> Get()
         {
             var regitros = await _context.DisciplinaAlunoCursos
+            .Include(d => d.Aluno)
+            .Include(d => d.Curso)
+            .Include(d => d.Disciplina)
               .Select(d => new DisciplinaAlunoCursoDTO
               {
+                  Id = d.AlunoId + d.CursoId + d.DisciplinaId,
                   AlunoId = d.AlunoId,
                   CursoId = d.CursoId,
                   DisciplinaId = d.DisciplinaId,
+                  AlunoNome = d.Aluno.Nome,
+                  CursoDescricao = d.Curso.Descricao,
+                  DisciplinaDescricao = d.Disciplina.Descricao
               })
-              .ToListAsync(); 
+              .ToListAsync();
 
 
-            return Ok(regitros); 
+            return Ok(regitros);
         }
 
         [HttpPost]
@@ -87,5 +94,34 @@ namespace SistemaEscolarAPI.Controller
 
             return NoContent();
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<DisciplinaAlunoCursoDTO>> GetById(int id)
+        {
+            var entidade = await _context.DisciplinaAlunoCursos
+                .Include(d => d.Aluno)
+                .Include(d => d.Curso)
+                .Include(d => d.Disciplina)
+                .FirstOrDefaultAsync(d => (d.AlunoId + d.CursoId + d.DisciplinaId) == id);
+
+            if (entidade == null)
+            {
+                return NotFound();
+            }
+
+            var dto = new DisciplinaAlunoCursoDTO
+            {
+                Id = entidade.AlunoId + entidade.CursoId + entidade.DisciplinaId,
+                AlunoId = entidade.AlunoId,
+                CursoId = entidade.CursoId,
+                DisciplinaId = entidade.DisciplinaId,
+                AlunoNome = entidade.Aluno.Nome,
+                CursoDescricao = entidade.Curso.Descricao,
+                DisciplinaDescricao = entidade.Disciplina.Descricao
+            };
+
+            return Ok(dto);
+        }
+
     }
 }

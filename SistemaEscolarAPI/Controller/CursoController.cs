@@ -28,6 +28,7 @@ namespace SistemaEscolarAPI.Controller
         {
             var cursos = await _context.Cursos
                 .Select(curso => new CursoDTO {
+                    Id = curso.Id,
                     Descricao = curso.Descricao,
                 })
                 .ToListAsync();
@@ -59,7 +60,7 @@ namespace SistemaEscolarAPI.Controller
             _context.Cursos.Update(curso);
             await _context.SaveChangesAsync();
 
-            return Ok();
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
@@ -70,7 +71,20 @@ namespace SistemaEscolarAPI.Controller
 
             _context.Cursos.Remove(curso);
             await _context.SaveChangesAsync();
-            return Ok();
+            return NoContent();
+        }
+
+        [HttpGet("{id}")] 
+        public async Task<ActionResult<CursoDTO>> GetById(int id)
+        {
+            var curso = await _context.Cursos.FirstOrDefaultAsync(c => c.Id == id);
+            if (curso == null) return NotFound();
+            var cursoDTO = new CursoDTO
+            {
+                Id = curso.Id,
+                Descricao = curso.Descricao,
+            };
+            return Ok(cursoDTO);
         }
     }
 }

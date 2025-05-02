@@ -9,6 +9,7 @@ using SistemaEscolarAPI.DTO;
 using Microsoft.AspNetCore.Mvc;
 using SistemaEscolarAPI.Db;
 using Microsoft.VisualBasic;
+using SistemaEscolarAPI.DTOs;
 
 namespace SistemaEscolarAPI.Controller
 {
@@ -29,6 +30,7 @@ namespace SistemaEscolarAPI.Controller
             var alunos = await _context.Alunos
                 .Include(a=> a.Curso)
                 .Select(aluno => new AlunoDTO {
+                    Id = aluno.Id,
                     Nome = aluno.Nome,
                     Curso = aluno.Curso.Descricao
                 })
@@ -49,7 +51,7 @@ namespace SistemaEscolarAPI.Controller
             _context.Alunos.Add(aluno);
             await _context.SaveChangesAsync();
 
-            return Ok();
+            return Ok(new {mensagem = "Aluno cadastrado com sucesso"});
         }
 
         [HttpPut("{id}")]
@@ -66,7 +68,7 @@ namespace SistemaEscolarAPI.Controller
             _context.Alunos.Update(aluno);
             await _context.SaveChangesAsync();
 
-            return Ok();
+            return Ok(new {mensagem = "Aluno cadastrado com sucesso"});
         }
 
         [HttpDelete("{id}")]
@@ -77,7 +79,25 @@ namespace SistemaEscolarAPI.Controller
 
             _context.Alunos.Remove(aluno);
             await _context.SaveChangesAsync();
-            return Ok();
+            return Ok(new {mensagem = "Aluno cadastrado com sucesso"});
+        }
+
+        [HttpGet("{id}")] 
+        public async Task<ActionResult<AlunoDTO>> GetById(int id)
+        {
+            var aluno = await _context.Alunos
+                .Include(a => a.Curso)
+                .FirstOrDefaultAsync(a => a.Id == id);
+
+            if (aluno == null) return NotFound();
+
+            var alunoDTO = new AlunoDTO
+            {
+                Id = aluno.Id,
+                Nome = aluno.Nome,
+                Curso = aluno.Curso.Descricao
+            };
+            return Ok(alunoDTO);
         }
     }
 }

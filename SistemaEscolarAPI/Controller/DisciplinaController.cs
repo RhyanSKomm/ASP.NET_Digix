@@ -29,6 +29,7 @@ namespace SistemaEscolarAPI.Controller
             var disciplinas = await _context.Disciplinas
                 .Include(d => d.Curso)
                 .Select(disciplinas => new DisciplinaDTO { 
+                    Id = disciplinas.Id,
                     Descricao = disciplinas.Descricao, 
                     Curso = disciplinas.Curso.Descricao
                 })
@@ -75,6 +76,25 @@ namespace SistemaEscolarAPI.Controller
             _context.Disciplinas.Remove(disciplina); // Remove a disciplina do contexto
             await _context.SaveChangesAsync(); // Salva as alterações no banco de dados
             return NoContent(); // Retorna status 204 No Content
+        }
+
+        [HttpGet("{id}")] 
+        public async Task<ActionResult<DisciplinaDTO>> GetById(int id)
+        {
+            var disciplina = await _context.Disciplinas
+                .Where(d => d.Id == id)
+                .Select(d => new DisciplinaDTO
+                {
+                    Id = d.Id,
+                    Descricao = d.Descricao,
+                    Curso = d.Curso.Descricao
+                })
+                .FirstOrDefaultAsync();
+                if (disciplina == null) return NotFound();
+                else
+                {
+                    return Ok(disciplina);
+                }
         }
     }
 }
