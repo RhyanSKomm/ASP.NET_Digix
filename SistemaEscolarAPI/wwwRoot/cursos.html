@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <i class="fas fa-graduation-cap me-2">Sistema Educacional</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">
+                            <i class="fas fa-home me-1">Home</i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">
+                            <i class="fas fa-sign-in-alt me-2">Login</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Cursos</h1>
+            <p class="lead">Aqui voce pode gerenciar seus cursos</p>
+        </div>
+    </header>
+
+    <form action="" id="cursoForm" class="container">
+        <div class="form-group">
+            <label for="">Descricação</label>
+            <input type="text" id="descricao" name="descricao" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-2">Salvar</button>
+
+
+    </form>
+
+    <div class="container mt-4">
+        <h2>Lista de Cursos</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Descrição</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="cursosTable">
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        let editandoCursoId = null;
+    
+        window.onload = async () => {
+            await carregarCursos();
+        };
+    
+        async function carregarCursos() {
+            try {
+                const response = await fetch('http://localhost:5210/api/Curso');
+                const cursos = await response.json();
+    
+                const cursosTable = document.getElementById('cursosTable');
+                cursosTable.innerHTML = '';
+    
+                cursos.forEach(curso => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${curso.id}</td>
+                        <td>${curso.descricao}</td>
+                        <td>
+                            <button class="btn btn-warning btn-sm me-1" onclick="editarCurso(${curso.id})">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="btn btn-danger btn-sm" onclick="excluirCurso(${curso.id})">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </td>
+                    `;
+                    cursosTable.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Erro ao carregar cursos:', error);
+            }
+        }
+    
+        document.getElementById("cursoForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+    
+            const descricao = document.getElementById("descricao").value;
+            const curso = { descricao };
+    
+            try {
+                let response;
+    
+                if (editandoCursoId === null) {
+                    response = await fetch('http://localhost:5210/api/Curso', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(curso)
+                    });
+    
+                    if (!response.ok) throw new Error();
+                    alert("Curso cadastrado com sucesso!");
+                } else {
+                    response = await fetch(`http://localhost:5210/api/Curso/${editandoCursoId}`, {
+                        method: 'PUT',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(curso)
+                    });
+    
+                    if (!response.ok) throw new Error();
+                    alert("Curso atualizado com sucesso!");
+                    editandoCursoId = null;
+                }
+    
+                this.reset();
+                carregarCursos();
+            } catch {
+                alert("Erro ao salvar curso.");
+            }
+        });
+
+        async function editarAluno(id) {
+            try {
+                const response = await fetch(`http://localhost:5210/api/Curso/${id}`);
+                const curso = await response.json();
+    
+                document.getElementById("descricao").value = curso.descricao;
+                editandoCursoId = id;
+            } catch (error) {
+                console.error("Erro ao buscar curso:", error);
+            }
+        }
+
+        async function excluirCurso(id) {
+            if (!confirm("Deseja realmente excluir este curso?")) return;
+    
+            try {
+                const response = await fetch(`http://localhost:5210/api/Curso/${id}`, {
+                    method: 'DELETE'
+                });
+    
+                if (!response.ok) throw new Error();
+    
+                alert("Curso excluído com sucesso!");
+                carregarCursos();
+            } catch {
+                alert("Erro ao excluir curso.");
+            }
+        }
+    </script>
+    
+    
+</body>
+
+</html>

@@ -19,7 +19,7 @@ namespace SistemaEscolarAPI.Controller
     {
         private readonly AppDbContext _context;
 
-        public AlunoController (AppDbContext context)
+        public AlunoController(AppDbContext context)
         {
             _context = context;
         }
@@ -28,8 +28,9 @@ namespace SistemaEscolarAPI.Controller
         public async Task<ActionResult<IEnumerable<AlunoDTO>>> Get()
         {
             var alunos = await _context.Alunos
-                .Include(a=> a.Curso)
-                .Select(aluno => new AlunoDTO {
+                .Include(a => a.Curso)
+                .Select(aluno => new AlunoDTO
+                {
                     Id = aluno.Id,
                     Nome = aluno.Nome,
                     Curso = aluno.Curso.Descricao
@@ -41,18 +42,23 @@ namespace SistemaEscolarAPI.Controller
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] AlunoDTO alunoDTO)
         {
-            var Curso = await _context.Cursos.FirstOrDefaultAsync(c => c.Descricao == alunoDTO.Curso);
-            if (Curso == null) return BadRequest("Curso não encontrado");
+            var curso = await _context.Cursos
+                .FirstOrDefaultAsync(c => c.Descricao.ToLower() == alunoDTO.Curso.ToLower());
 
-            var aluno = new Aluno {
+            if (curso == null) return BadRequest("Curso não encontrado");
+
+            var aluno = new Aluno
+            {
                 Nome = alunoDTO.Nome,
-                CursoId = Curso.Id
+                CursoId = curso.Id
             };
+
             _context.Alunos.Add(aluno);
             await _context.SaveChangesAsync();
 
-            return Ok(new {mensagem = "Aluno cadastrado com sucesso"});
+            return Ok(new { mensagem = "Aluno cadastrado com sucesso" });
         }
+
 
         [HttpPut("{id}")]
         public async Task<ActionResult> Post(int id, [FromBody] AlunoDTO alunoDTO)
@@ -68,7 +74,7 @@ namespace SistemaEscolarAPI.Controller
             _context.Alunos.Update(aluno);
             await _context.SaveChangesAsync();
 
-            return Ok(new {mensagem = "Aluno cadastrado com sucesso"});
+            return Ok(new { mensagem = "Aluno cadastrado com sucesso" });
         }
 
         [HttpDelete("{id}")]
@@ -79,10 +85,10 @@ namespace SistemaEscolarAPI.Controller
 
             _context.Alunos.Remove(aluno);
             await _context.SaveChangesAsync();
-            return Ok(new {mensagem = "Aluno cadastrado com sucesso"});
+            return Ok(new { mensagem = "Aluno cadastrado com sucesso" });
         }
 
-        [HttpGet("{id}")] 
+        [HttpGet("{id}")]
         public async Task<ActionResult<AlunoDTO>> GetById(int id)
         {
             var aluno = await _context.Alunos

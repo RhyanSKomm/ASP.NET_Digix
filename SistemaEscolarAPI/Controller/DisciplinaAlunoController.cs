@@ -24,27 +24,34 @@ namespace SistemaEscolarAPI.Controller
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<DisciplinaAlunoCursoDTO>>> Get()
+public async Task<ActionResult<IEnumerable<DisciplinaAlunoCursoDTO>>> Get()
+{
+    // Verificando se a consulta realmente retorna múltiplos itens
+    var registros = await _context.DisciplinaAlunoCursos
+        .Include(d => d.Aluno)
+        .Include(d => d.Curso)
+        .Include(d => d.Disciplina)
+        .Select(d => new DisciplinaAlunoCursoDTO
         {
-            var regitros = await _context.DisciplinaAlunoCursos
-            .Include(d => d.Aluno)
-            .Include(d => d.Curso)
-            .Include(d => d.Disciplina)
-              .Select(d => new DisciplinaAlunoCursoDTO
-              {
-                  Id = d.AlunoId + d.CursoId + d.DisciplinaId,
-                  AlunoId = d.AlunoId,
-                  CursoId = d.CursoId,
-                  DisciplinaId = d.DisciplinaId,
-                  AlunoNome = d.Aluno.Nome,
-                  CursoDescricao = d.Curso.Descricao,
-                  DisciplinaDescricao = d.Disciplina.Descricao
-              })
-              .ToListAsync();
+            Id = d.AlunoId + d.CursoId + d.DisciplinaId,
+            AlunoId = d.AlunoId,
+            CursoId = d.CursoId,
+            DisciplinaId = d.DisciplinaId,
+            AlunoNome = d.Aluno.Nome,
+            CursoDescricao = d.Curso.Descricao,
+            DisciplinaDescricao = d.Disciplina.Descricao
+        })
+        .ToListAsync();
 
+    // Checando se realmente existe uma lista com mais de um item
+    if (registros == null || registros.Count == 0)
+    {
+        return NotFound("Nenhum relacionamento encontrado");
+    }
 
-            return Ok(regitros);
-        }
+    return Ok(registros);
+}
+
 
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] DisciplinaAlunoCursoDTO disciplinaAlunoCursoDTO)

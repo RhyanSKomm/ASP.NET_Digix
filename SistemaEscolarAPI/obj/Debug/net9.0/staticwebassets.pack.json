@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\alunos.html",
+      "PackagePath": "staticwebassets\\alunos.html"
+    },
+    {
+      "Id": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\js\\modal.js",
+      "PackagePath": "staticwebassets\\js\\modal.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SistemaEscolarAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SistemaEscolarAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SistemaEscolarAPI.props",
+      "PackagePath": "build\\SistemaEscolarAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SistemaEscolarAPI.props",
+      "PackagePath": "buildMultiTargeting\\SistemaEscolarAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SistemaEscolarAPI.props",
+      "PackagePath": "buildTransitive\\SistemaEscolarAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

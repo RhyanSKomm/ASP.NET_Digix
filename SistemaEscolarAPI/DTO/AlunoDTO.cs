@@ -11,4 +11,5 @@ namespace SistemaEscolarAPI.DTOs
         public string Nome { get; set; }
         public string Curso { get; set; }
     }
+
 }
