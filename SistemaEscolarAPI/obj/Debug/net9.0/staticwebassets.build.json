@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tbZY2M4lG9fjPO1TdfFHQTuORYWSLsLuQylepZZ6vtI=",
+  "Hash": "fcKW1jqmFH8Ujc9vstmbbjust74h0S7MRe4Zs/UnzWs=",
   "Source": "SistemaEscolarAPI",
   "BasePath": "_content/SistemaEscolarAPI",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-kgr9kbtlph.gz",
+      "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-abt15olu5h.gz",
       "SourceId": "SistemaEscolarAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SistemaEscolarAPI",
-      "RelativePath": "alunos#[.{fingerprint=kgr9kbtlph}]?.html.gz",
+      "RelativePath": "alunos#[.{fingerprint=abt15olu5h}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\alunos.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "93yg0au1tm",
-      "Integrity": "a2eSv+gfFQ+7rr/1hQ8DwgQ0k8ELl7zcVh7tPupAID8=",
+      "Fingerprint": "pkw9d388oc",
+      "Integrity": "KaYGmGV/jBxrsQDsjcxmJ3u6H2bPev04slnAjCFIvjw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\alunos.html"
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\f7g47pfrpm-ynzjcmvdzl.gz",
+      "SourceId": "SistemaEscolarAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaEscolarAPI",
+      "RelativePath": "cursos#[.{fingerprint=ynzjcmvdzl}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\cursos.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mo94boeai8",
+      "Integrity": "+kpAlBAtD87WR/fJNpoIKgullJ4D8YyMQDslIbwncjY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\cursos.html"
     },
     {
       "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\mzac724a8y-kxpx1wj2g4.gz",
@@ -101,6 +122,48 @@
       "OriginalItemSpec": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\css\\style.css"
     },
     {
+      "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\wa51uvajrm-j3f5widqb3.gz",
+      "SourceId": "SistemaEscolarAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaEscolarAPI",
+      "RelativePath": "dusciplina-aluno-curso#[.{fingerprint=j3f5widqb3}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\dusciplina-aluno-curso.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "efz4469zpy",
+      "Integrity": "WjiVRncZMt9+9M4+OCwRP1X5r3YVb1eoi5yZIOTpRYI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\dusciplina-aluno-curso.html"
+    },
+    {
+      "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\ykemme3cg5-ew5u98rk66.gz",
+      "SourceId": "SistemaEscolarAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaEscolarAPI",
+      "RelativePath": "disciplinas#[.{fingerprint=ew5u98rk66}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\disciplinas.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "u693ff6a0m",
+      "Integrity": "usPcrFK1klfBTClv5QEtvFl13WrZo9xai2i5qvtZlNU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\disciplinas.html"
+    },
+    {
       "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\alunos.html",
       "SourceId": "SistemaEscolarAPI",
       "SourceType": "Discovered",
@@ -115,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kgr9kbtlph",
-      "Integrity": "RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE=",
+      "Fingerprint": "abt15olu5h",
+      "Integrity": "pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\alunos.html"
@@ -141,6 +204,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\cursos.html",
+      "SourceId": "SistemaEscolarAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\",
+      "BasePath": "_content/SistemaEscolarAPI",
+      "RelativePath": "cursos#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ynzjcmvdzl",
+      "Integrity": "Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cursos.html"
+    },
+    {
+      "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\disciplinas.html",
+      "SourceId": "SistemaEscolarAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\",
+      "BasePath": "_content/SistemaEscolarAPI",
+      "RelativePath": "disciplinas#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ew5u98rk66",
+      "Integrity": "og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\disciplinas.html"
+    },
+    {
+      "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\dusciplina-aluno-curso.html",
+      "SourceId": "SistemaEscolarAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\",
+      "BasePath": "_content/SistemaEscolarAPI",
+      "RelativePath": "dusciplina-aluno-curso#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j3f5widqb3",
+      "Integrity": "USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dusciplina-aluno-curso.html"
     },
     {
       "Identity": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\index.html",
@@ -187,13 +313,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "alunos.html",
-      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-kgr9kbtlph.gz",
+      "Route": "alunos.abt15olu5h.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-abt15olu5h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000561482313"
+          "Quality": "0.000531067446"
         }
       ],
       "ResponseHeaders": [
@@ -203,19 +329,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1780"
+          "Value": "1882"
         },
         {
           "Name": "ETag",
-          "Value": "\"a2eSv+gfFQ+7rr/1hQ8DwgQ0k8ELl7zcVh7tPupAID8=\""
+          "Value": "\"KaYGmGV/jBxrsQDsjcxmJ3u6H2bPev04slnAjCFIvjw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 19:13:27 GMT"
+          "Value": "Wed, 07 May 2025 19:52:39 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -231,18 +357,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE=\""
+          "Value": "W/\"pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "abt15olu5h"
+        },
+        {
+          "Name": "label",
+          "Value": "alunos.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE="
+          "Value": "sha256-pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg="
         }
       ]
     },
     {
-      "Route": "alunos.html",
+      "Route": "alunos.abt15olu5h.html",
       "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\alunos.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -252,7 +386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7038"
+          "Value": "7411"
         },
         {
           "Name": "Content-Type",
@@ -260,121 +394,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE=\""
+          "Value": "\"pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 19:13:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE="
-        }
-      ]
-    },
-    {
-      "Route": "alunos.html.gz",
-      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-kgr9kbtlph.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1780"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a2eSv+gfFQ+7rr/1hQ8DwgQ0k8ELl7zcVh7tPupAID8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 19:13:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-a2eSv+gfFQ+7rr/1hQ8DwgQ0k8ELl7zcVh7tPupAID8="
-        }
-      ]
-    },
-    {
-      "Route": "alunos.kgr9kbtlph.html",
-      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-kgr9kbtlph.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000561482313"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1780"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a2eSv+gfFQ+7rr/1hQ8DwgQ0k8ELl7zcVh7tPupAID8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 19:13:27 GMT"
+          "Value": "Wed, 07 May 2025 19:52:39 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kgr9kbtlph"
+          "Value": "abt15olu5h"
         },
         {
           "Name": "label",
@@ -382,13 +416,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE="
+          "Value": "sha256-pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg="
         }
       ]
     },
     {
-      "Route": "alunos.kgr9kbtlph.html",
-      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\alunos.html",
+      "Route": "alunos.abt15olu5h.html.gz",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-abt15olu5h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -397,7 +431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7038"
+          "Value": "1882"
         },
         {
           "Name": "Content-Type",
@@ -405,56 +439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE=\""
+          "Value": "\"KaYGmGV/jBxrsQDsjcxmJ3u6H2bPev04slnAjCFIvjw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 19:13:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kgr9kbtlph"
-        },
-        {
-          "Name": "label",
-          "Value": "alunos.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RKMpWSKwlJZ45az/VmgZ2kOqle5yOyMtF7bIgGCeIkE="
-        }
-      ]
-    },
-    {
-      "Route": "alunos.kgr9kbtlph.html.gz",
-      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-kgr9kbtlph.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1780"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a2eSv+gfFQ+7rr/1hQ8DwgQ0k8ELl7zcVh7tPupAID8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 19:13:27 GMT"
+          "Value": "Wed, 07 May 2025 19:52:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -472,7 +461,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kgr9kbtlph"
+          "Value": "abt15olu5h"
         },
         {
           "Name": "label",
@@ -480,7 +469,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a2eSv+gfFQ+7rr/1hQ8DwgQ0k8ELl7zcVh7tPupAID8="
+          "Value": "sha256-KaYGmGV/jBxrsQDsjcxmJ3u6H2bPev04slnAjCFIvjw="
+        }
+      ]
+    },
+    {
+      "Route": "alunos.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-abt15olu5h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000531067446"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1882"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KaYGmGV/jBxrsQDsjcxmJ3u6H2bPev04slnAjCFIvjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 19:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg="
+        }
+      ]
+    },
+    {
+      "Route": "alunos.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\alunos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 19:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pp/BMvj5DHpx2Uugr1DT8RnjSpyX+u6OM0rDN5aM+Rg="
+        }
+      ]
+    },
+    {
+      "Route": "alunos.html.gz",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\1z0c689kn5-abt15olu5h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KaYGmGV/jBxrsQDsjcxmJ3u6H2bPev04slnAjCFIvjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 19:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KaYGmGV/jBxrsQDsjcxmJ3u6H2bPev04slnAjCFIvjw="
         }
       ]
     },
@@ -783,6 +909,900 @@
       ]
     },
     {
+      "Route": "cursos.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\f7g47pfrpm-ynzjcmvdzl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000570125428"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1753"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+kpAlBAtD87WR/fJNpoIKgullJ4D8YyMQDslIbwncjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A="
+        }
+      ]
+    },
+    {
+      "Route": "cursos.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\cursos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A="
+        }
+      ]
+    },
+    {
+      "Route": "cursos.html.gz",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\f7g47pfrpm-ynzjcmvdzl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+kpAlBAtD87WR/fJNpoIKgullJ4D8YyMQDslIbwncjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+kpAlBAtD87WR/fJNpoIKgullJ4D8YyMQDslIbwncjY="
+        }
+      ]
+    },
+    {
+      "Route": "cursos.ynzjcmvdzl.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\f7g47pfrpm-ynzjcmvdzl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000570125428"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1753"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+kpAlBAtD87WR/fJNpoIKgullJ4D8YyMQDslIbwncjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ynzjcmvdzl"
+        },
+        {
+          "Name": "label",
+          "Value": "cursos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A="
+        }
+      ]
+    },
+    {
+      "Route": "cursos.ynzjcmvdzl.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\cursos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ynzjcmvdzl"
+        },
+        {
+          "Name": "label",
+          "Value": "cursos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tg+PEEXVwaJXRqcjiEsoOmpTW81wobpp4fLLRryc44A="
+        }
+      ]
+    },
+    {
+      "Route": "cursos.ynzjcmvdzl.html.gz",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\f7g47pfrpm-ynzjcmvdzl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+kpAlBAtD87WR/fJNpoIKgullJ4D8YyMQDslIbwncjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ynzjcmvdzl"
+        },
+        {
+          "Name": "label",
+          "Value": "cursos.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+kpAlBAtD87WR/fJNpoIKgullJ4D8YyMQDslIbwncjY="
+        }
+      ]
+    },
+    {
+      "Route": "disciplinas.ew5u98rk66.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\ykemme3cg5-ew5u98rk66.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000631711939"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1582"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usPcrFK1klfBTClv5QEtvFl13WrZo9xai2i5qvtZlNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:06:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ew5u98rk66"
+        },
+        {
+          "Name": "label",
+          "Value": "disciplinas.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44="
+        }
+      ]
+    },
+    {
+      "Route": "disciplinas.ew5u98rk66.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\disciplinas.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:06:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ew5u98rk66"
+        },
+        {
+          "Name": "label",
+          "Value": "disciplinas.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44="
+        }
+      ]
+    },
+    {
+      "Route": "disciplinas.ew5u98rk66.html.gz",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\ykemme3cg5-ew5u98rk66.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usPcrFK1klfBTClv5QEtvFl13WrZo9xai2i5qvtZlNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:06:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ew5u98rk66"
+        },
+        {
+          "Name": "label",
+          "Value": "disciplinas.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-usPcrFK1klfBTClv5QEtvFl13WrZo9xai2i5qvtZlNU="
+        }
+      ]
+    },
+    {
+      "Route": "disciplinas.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\ykemme3cg5-ew5u98rk66.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000631711939"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1582"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usPcrFK1klfBTClv5QEtvFl13WrZo9xai2i5qvtZlNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:06:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44="
+        }
+      ]
+    },
+    {
+      "Route": "disciplinas.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\disciplinas.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:06:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-og1tfGOWiTmH1UFDuu50hudYbymwyHtyzBNoL46wO44="
+        }
+      ]
+    },
+    {
+      "Route": "disciplinas.html.gz",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\ykemme3cg5-ew5u98rk66.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usPcrFK1klfBTClv5QEtvFl13WrZo9xai2i5qvtZlNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 20:06:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-usPcrFK1klfBTClv5QEtvFl13WrZo9xai2i5qvtZlNU="
+        }
+      ]
+    },
+    {
+      "Route": "dusciplina-aluno-curso.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\wa51uvajrm-j3f5widqb3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000722543353"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1383"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WjiVRncZMt9+9M4+OCwRP1X5r3YVb1eoi5yZIOTpRYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI="
+        }
+      ]
+    },
+    {
+      "Route": "dusciplina-aluno-curso.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\dusciplina-aluno-curso.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI="
+        }
+      ]
+    },
+    {
+      "Route": "dusciplina-aluno-curso.html.gz",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\wa51uvajrm-j3f5widqb3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WjiVRncZMt9+9M4+OCwRP1X5r3YVb1eoi5yZIOTpRYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WjiVRncZMt9+9M4+OCwRP1X5r3YVb1eoi5yZIOTpRYI="
+        }
+      ]
+    },
+    {
+      "Route": "dusciplina-aluno-curso.j3f5widqb3.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\wa51uvajrm-j3f5widqb3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000722543353"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1383"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WjiVRncZMt9+9M4+OCwRP1X5r3YVb1eoi5yZIOTpRYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3f5widqb3"
+        },
+        {
+          "Name": "label",
+          "Value": "dusciplina-aluno-curso.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI="
+        }
+      ]
+    },
+    {
+      "Route": "dusciplina-aluno-curso.j3f5widqb3.html",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\dusciplina-aluno-curso.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3f5widqb3"
+        },
+        {
+          "Name": "label",
+          "Value": "dusciplina-aluno-curso.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-USxLFR1P9mydUhMhTLJHtMof+gpmRph9LdO+5b/d/SI="
+        }
+      ]
+    },
+    {
+      "Route": "dusciplina-aluno-curso.j3f5widqb3.html.gz",
+      "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\wa51uvajrm-j3f5widqb3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WjiVRncZMt9+9M4+OCwRP1X5r3YVb1eoi5yZIOTpRYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3f5widqb3"
+        },
+        {
+          "Name": "label",
+          "Value": "dusciplina-aluno-curso.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WjiVRncZMt9+9M4+OCwRP1X5r3YVb1eoi5yZIOTpRYI="
+        }
+      ]
+    },
+    {
       "Route": "index.3ew2cjk1qg.html",
       "AssetFile": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\obj\\Debug\\net9.0\\compressed\\4y5m0erfun-3ew2cjk1qg.gz",
       "Selectors": [
@@ -807,7 +1827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 18:44:49 GMT"
+          "Value": "Wed, 07 May 2025 19:35:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -868,7 +1888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 18:44:49 GMT"
+          "Value": "Wed, 07 May 2025 19:35:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -913,7 +1933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 18:44:49 GMT"
+          "Value": "Wed, 07 May 2025 19:35:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -968,7 +1988,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 18:44:49 GMT"
+          "Value": "Wed, 07 May 2025 19:35:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1021,7 +2041,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 18:44:49 GMT"
+          "Value": "Wed, 07 May 2025 19:35:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1058,7 +2078,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 18:44:49 GMT"
+          "Value": "Wed, 07 May 2025 19:35:40 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -9,6 +9,18 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\cursos.html",
+      "PackagePath": "staticwebassets\\cursos.html"
+    },
+    {
+      "Id": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\disciplinas.html",
+      "PackagePath": "staticwebassets\\disciplinas.html"
+    },
+    {
+      "Id": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\dusciplina-aluno-curso.html",
+      "PackagePath": "staticwebassets\\dusciplina-aluno-curso.html"
+    },
+    {
       "Id": "C:\\Users\\rhyansantiago\\Desktop\\ASPNET\\SistemaEscolarAPI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

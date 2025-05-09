@@ -147,4 +147,7 @@ C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\bin\Debug\net9.0\Sistema
 C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\obj\Debug\net9.0\compressed\r0586u09te-nlznez3yai.gz
 C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\obj\Debug\net9.0\compressed\4y5m0erfun-3ew2cjk1qg.gz
 C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\obj\Debug\net9.0\compressed\mzac724a8y-kxpx1wj2g4.gz
-C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\obj\Debug\net9.0\compressed\1z0c689kn5-kgr9kbtlph.gz
+C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\obj\Debug\net9.0\compressed\1z0c689kn5-abt15olu5h.gz
+C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\obj\Debug\net9.0\compressed\f7g47pfrpm-ynzjcmvdzl.gz
+C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\obj\Debug\net9.0\compressed\ykemme3cg5-ew5u98rk66.gz
+C:\Users\rhyansantiago\Desktop\ASPNET\SistemaEscolarAPI\obj\Debug\net9.0\compressed\wa51uvajrm-j3f5widqb3.gz

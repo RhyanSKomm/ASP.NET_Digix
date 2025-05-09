@@ -52,7 +52,7 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", context => 
 {
-    context.Response.Redirect("/index.html");
+    context.Response.Redirect("/login.html");
     return Task.CompletedTask;
 });
 
